@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(Fonts/Roboto-Regular.eot);
+  src: url(Fonts/Roboto-Regular.ttf) format("truetype"),
+    url(Fonts/Roboto-Regular.woff) format("woff"),
+    url(Fonts/Roboto-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../fonts/bpg-arial-caps-webfont.eot");
+  src: url("../fonts/bpg-arial-caps-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/bpg-arial-caps-webfont.woff2") format("woff2"),
+    url("../fonts/bpg-arial-caps-webfont.woff") format("woff"),
+    url("../fonts/bpg-arial-caps-webfont.ttf") format("truetype"),
+    url("../fonts/bpg-arial-caps-webfont.svg#bpg_arial_capsregular")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Mrgvlovani";
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/bpg-mrgvlovani-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/bpg-mrgvlovani-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/bpg-mrgvlovani-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/bpg-mrgvlovani-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/bpg-mrgvlovani-webfont.svg#bpg_mrgvlovaniregular")
+      format("svg"); /* Legacy iOS */
+}
+
+.roboto {
+  font-family: "Roboto";
+}
+
+.arial {
+  font-family: "Arial";
+}
+
+.mrgvlovani {
+  font-family: "Mrgvlovani";
+}
