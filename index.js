@@ -23,12 +23,25 @@ function showSlides(n) {
 function toggleAnswer(answerId) {
   var answer = document.getElementById(answerId);
   var question = document.querySelector(".faq-question");
-
   if (answer.style.display === "block") {
     answer.style.display = "none";
-    question.style.marginBottom = "5px";
   } else {
     answer.style.display = "block";
     question.style.marginBottom = "0";
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const burgerIcon = document.querySelector(".burger-icon");
+  const navList = document.querySelector("nav ul");
+
+  burgerIcon.addEventListener("click", function () {
+    navList.classList.toggle("show");
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!navList.contains(event.target) && event.target !== burgerIcon) {
+      navList.classList.remove("show");
+    }
+  });
+});

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/shared_styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
     <link rel="stylesheet" type="text/css" href="./css/fonts.css">
 </head>
 
@@ -22,6 +23,7 @@
                 <p class="arial">X აკადემია</p>
             </div>
             <nav>
+                <div class="burger-icon">&#9776;</div>
                 <ul class="flex align-center mrgvlovani">
                     <li>მთავარი</li>
                     <li>TBC IT</li>
@@ -193,8 +195,9 @@
                 <button class="more-button">ყველა კითხვა</button>
             </div>
 
-            <div class="faq-question" onclick="toggleAnswer('answer1')">
-                როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?
+            <div class="faq-question flex space-between" onclick="toggleAnswer('answer1')">
+                <p>როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?</p>
+                <div class="arrow" id="arrow1">&#9660;</div>
             </div>
             <div class="faq-answer" id="answer1">
                 <p class="registration-steps">კურსზე რეგისტრაციისთვის უნდა გაიარო რამდენიმე ეტაპი:</p>
@@ -232,15 +235,20 @@
                 </p>
             </div>
 
-            <div class="faq-question" onclick="toggleAnswer('answer2')">
-                შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია?
+            <div class="faq-question flex space-between" onclick="toggleAnswer('answer2')">
+                <p> შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია?</p>
+                <div class="down-arrow" id="arrow1">&#9660;</div>
             </div>
+
             <div class="faq-answer" id="answer2">TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ კანდიდატს
                 აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა Information Security და Python კურსებისა, სადაც Basic
                 დონის გავლის შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.
             </div>
 
-            <div class="faq-question" onclick="toggleAnswer('answer3')">რა ღირს სწავლა პროგრამის ფარგლებში?</div>
+            <div class="faq-question flex space-between" onclick="toggleAnswer('answer3')">
+                <p>რა ღირს სწავლა პროგრამის ფარგლებში?</p>
+                <div>&#9660;</div>
+            </div>
             <div class="faq-answer" id="answer3">პროგრამის ფარგლებში კურსებზე სწავლა სრულიად დაფინანსებულია თიბისი
                 ბანკისა და USAID-ის მიერ.</div>
 
