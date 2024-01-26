@@ -5,10 +5,11 @@ This repository contains the practical work I completed for TBC Academy, specifi
 Project Structure
 
 ├── css
-├── fonts.css
-├── reset.css
-├── share-styles.css
-├── style.css # Stylesheet for the project
+   ├── fonts.css
+   ├── reset.css
+   ├── share-styles.css
+   ├── style.css # Stylesheet for the project
+   ├── responsive.css 
 ├── fonts
 ├── index.js # JavaScript file for interactive features
 ├── images # Folder containing project images
