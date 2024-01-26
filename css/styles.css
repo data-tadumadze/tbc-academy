@@ -11,6 +11,8 @@
   box-sizing: border-box;
 }
 
+/* Header */
+
 .header-container {
   width: 80%;
   margin: auto;
@@ -57,6 +59,8 @@ nav ul li:hover {
   height: 85px;
   background-color: var(--dark-grey);
 }
+
+/* First section */
 
 .first-background {
   height: 60vh;
@@ -112,6 +116,7 @@ h2 {
   color: var(--font-blue-hover);
 }
 
+/* Second Section */
 .second-section {
   background-color: var(--dark-grey);
   padding-bottom: 15vh;
