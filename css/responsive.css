@@ -1,184 +1,190 @@
-
 @media screen and (max-width: 1200px) {
-    nav ul li {
-      font-size: 0.8rem;
-      margin-left: 20px;
-    }
-  
-    .tbc-x-usaid-description p {
-      font-size: 1.5rem;
-    }
-  
-    .grid-item button {
-      font-size: 1rem;
-    }
+  nav ul li {
+    font-size: 0.8rem;
+    margin-left: 20px;
   }
-  
-  @media screen and (max-width: 900px) {
-    .tbc-x-usaid-description p {
-      font-size: 1.2rem;
-    }
-  
-    .grid-item button {
-      font-size: 0.8rem;
-    }
-  
-    .grid-item span {
-      font-size: 0.6rem;
-    }
-  
-    .third-section h4 {
-      margin-bottom: 20px;
-      font-size: 1.2rem;
-    }
-  
-    .faq-header h5,
-    .more-button {
-      font-size: 1.2rem;
-    }
-  
-    .faq-answer,
-    .faq-question {
-      font-size: 1rem;
-    }
+
+  .tbc-x-usaid-description p {
+    font-size: 1.5rem;
   }
-  
-  @media screen and (max-width: 700px) {
-    .tbc-x-usaid-description p {
-      font-size: 1rem;
-    }
-  
-    .grid-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
-    .grid-item {
-      height: 90vh;
-    }
-  
-    .grid-item button {
-      font-size: 1.2rem;
-    }
-  
-    .grid-item span,
-    .grid-item-title {
-      font-size: 1.4rem;
-    }
-  
-    .grid-item-title {
-      margin-bottom: 10%;
-    }
-  
-    .button-div {
-      width: 30%;
-    }
-  
-    .grid-container {
-      margin-bottom: 70vh;
-      row-gap: 1%;
-    }
+
+  .grid-item button {
+    font-size: 1rem;
   }
-  
-  @media (max-width: 600px) {
-    .burger-icon {
-      display: block;
-    }
-  
-    nav ul {
-      display: none !important;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: flex-end !important;
-      position: absolute;
-      top: 85px;
-      right: 0;
-      width: 50vw;
-      height: 70vh;
-      padding-right: 5vw;
-      background-color: var(--navbar-grey);
-    }
-  
-    header {
-      opacity: 1;
-    }
-  
-    nav ul li {
-      font-size: 1.4rem;
-    }
-  
-    nav ul.show {
-      display: flex !important;
-    }
-  
-    .tbc-x-usaid-description p {
-      line-height: 1.5rem;
-    }
-  
-    .grid-item span,
-    .grid-item-title {
-      font-size: 1rem;
-    }
+}
+
+@media screen and (max-width: 900px) {
+  .tbc-x-usaid-description p {
+    font-size: 1.2rem;
   }
-  
-  @media (max-width: 500px) {
-    .first-background {
-      height: 40vh;
-    }
-  
-    .first-background h1,
-    h2 {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-  
-    .grid-item-title {
-      margin-bottom: 40%;
-    }
-  
-    .third-section h4 {
-      margin-bottom: 10px;
-      font-size: 1rem;
-    }
-  
-    .tbc-footer {
-      font-size: 0.5rem;
-    }
-  
-    .txt-us-btn {
-      color: white;
-      background-color: var(--font-blue);
-      border: none;
-      border-radius: 5px;
-      padding: 5px 20px;
-      font-size: 1rem;
-    }
+
+  .grid-item button {
+    font-size: 0.8rem;
   }
-  
-  @media (max-width: 400px) {
-    .second-section h3 {
-      font-size: 1rem;
-    }
-  
-    .grid-item {
-      height: 60vh;
-    }
-  
-    .grid-item button {
-      font-size: 1rem;
-    }
-  
-    .grid-item span,
-    .grid-item-title {
-      font-size: 0.7rem;
-    }
-  
-    .third-section {
-      height: 50vh;
-    }
-  
-    .mySlides {
-      flex-direction: column;
-      align-items: center;
-    }
+
+  .grid-item span {
+    font-size: 0.6rem;
   }
-  
+
+  .third-section h4 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+
+  .faq-header h5,
+  .more-button {
+    font-size: 1.2rem;
+  }
+
+  .faq-answer,
+  .faq-question {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tbc-x-usaid-description p {
+    font-size: 1rem;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-item {
+    height: 90vh;
+  }
+
+  .grid-item button {
+    font-size: 1.2rem;
+  }
+
+  .grid-item span,
+  .grid-item-title {
+    font-size: 1.4rem;
+  }
+
+  .grid-item-title {
+    margin-bottom: 10%;
+  }
+
+  .button-div {
+    width: 30%;
+  }
+
+  .grid-container {
+    margin-bottom: 70vh;
+    row-gap: 1%;
+  }
+}
+
+@media (max-width: 600px) {
+  .burger-icon {
+    display: block;
+  }
+
+  nav ul {
+    display: none !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end !important;
+    position: absolute;
+    top: 85px;
+    right: 0;
+    width: 50vw;
+    height: 70vh;
+    padding-right: 5vw;
+    background-color: var(--navbar-grey);
+  }
+
+  header {
+    opacity: 1;
+  }
+
+  nav ul li {
+    font-size: 1.4rem;
+  }
+
+  nav ul.show {
+    display: flex !important;
+  }
+
+  .tbc-x-usaid-description p {
+    line-height: 1.5rem;
+  }
+
+  .grid-item span,
+  .grid-item-title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .first-background {
+    height: 40vh;
+  }
+
+  .first-background h1,
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .grid-item-title {
+    margin-bottom: 40%;
+  }
+
+  .third-section h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  .third-section {
+    height: 50vh;
+  }
+
+  .mySlides {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .next {
+    top: 17.5vh;
+  }
+
+  .prev {
+    top: 17.5vh;
+  }
+
+  .tbc-footer {
+    font-size: 0.5rem;
+  }
+
+  .txt-us-btn {
+    color: white;
+    background-color: var(--font-blue);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .second-section h3 {
+    font-size: 1rem;
+  }
+
+  .grid-item {
+    height: 60vh;
+  }
+
+  .grid-item button {
+    font-size: 1rem;
+  }
+
+  .grid-item span,
+  .grid-item-title {
+    font-size: 0.7rem;
+  }
+}
